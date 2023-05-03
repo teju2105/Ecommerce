@@ -1,0 +1,14 @@
+<div class="header">
+    <div class="site-image">
+      <!----src here is property binding example---->
+        <img [src]="source" height= "240" width="320">
+    </div>
+    <div class="site-slogan">
+      <!----passing a value---->
+      <!--<h2>{{ slogan }}</h2>-->
+      <!----passing a method---->
+      <h2>{{ getSlogan()}}</h2>
+      <!----passing an expression---->
+      <!--<h2>{{4*8}}</h2>-->
+    </div>
+</div>
